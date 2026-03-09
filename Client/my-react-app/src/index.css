@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Google-like theme */
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --color-google-blue: #1a73e8;
+  --color-google-blue-hover: #1765cc;
+  --color-google-gray-900: #202124;
+  --color-google-gray-700: #5f6368;
+  --color-google-gray-500: #80868b;
+  --color-google-gray-100: #f1f3f4;
+  --color-google-border: #dadce0;
+  --color-google-error: #d93025;
+  --color-google-success: #1e8e3e;
+}
+
+body {
+  font-family: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
